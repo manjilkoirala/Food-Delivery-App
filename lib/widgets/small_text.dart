@@ -12,7 +12,7 @@ class SmallText extends StatelessWidget {
       {Key? key,
       required this.smalltext,
       this.size = 12,
-      this.color = GlobalVariable.textColor})
+      this.color = Mycolor.textColor})
       : super(key: key);
 
   @override

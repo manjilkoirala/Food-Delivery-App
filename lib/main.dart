@@ -1,6 +1,5 @@
-import 'package:ecommerce/constants/global_variables.dart';
-import 'package:ecommerce/widgets/big_text.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 import 'Screen/Homepage/food_bar.dart';
 
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Ecommerce App',
       theme: ThemeData(

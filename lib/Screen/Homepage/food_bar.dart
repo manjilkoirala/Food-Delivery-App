@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
                     children: [
                       BigText(
                         bigtext: "Nepal",
-                        color: GlobalVariable.mainColor,
+                        color: Mycolor.mainColor,
                         size: 30,
                       ),
                       Row(
@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
                     width: 45,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
-                      color: GlobalVariable.mainColor,
+                      color: Mycolor.mainColor,
                     ),
                     child: const Icon(
                       Icons.search,
